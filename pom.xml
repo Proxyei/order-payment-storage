@@ -7,6 +7,11 @@
     <groupId>com.xywei.springcloudalibaba</groupId>
     <artifactId>order-payment-storage</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>service-order-21001</module>
+        <module>service-order-21002</module>
+        <module>service-order-21003</module>
+    </modules>
 
     <packaging>pom</packaging>
 
@@ -50,7 +55,7 @@
             </dependency>
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
-                <artifactId>spring-cloud-alibaba-denpendencies</artifactId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
                 <version>${springcloudalibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
